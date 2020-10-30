@@ -80,10 +80,10 @@ def send_data4(N1,S1,port):
     r1=requests.post(url1)
     print(r1)
 
-#def main(N1,S1,N2,S2):
-    #DB_connection()
-    #send_data(N1,S1,N2,S2)
-    #send_data2(N1,S1,N2,S2)
+def main(N1,S1,N2,S2):
+    DB_connection()
+    send_data(N1,S1,N2,S2)
+    send_data2(N1,S1,N2,S2)
   
 if __name__ == "__main__": main()
 
